@@ -1,0 +1,21 @@
+nav {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+/*lg*/
+.nav__amount {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}

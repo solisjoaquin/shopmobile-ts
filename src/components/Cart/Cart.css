@@ -1,0 +1,22 @@
+.cart__container {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  color: #551a8b;
+}
+
+.svg {
+  height: 2.5rem;
+}
+
+.cart__amount {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
