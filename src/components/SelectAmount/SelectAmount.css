@@ -1,0 +1,28 @@
+.amount_box {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amount_button {
+  padding: 1.125rem 1.6rem;
+  background: #000;
+  color: #fff;
+  border: solid 3px white;
+  border-radius: 999999px;
+  font-size: 1.25rem;
+}
+
+.plus {
+  padding: 1.125rem 1.5rem;
+}
+
+.amount {
+  padding: 0 1.125rem;
+  width: 5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}

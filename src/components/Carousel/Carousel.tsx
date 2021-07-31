@@ -1,6 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
+import SelectAmount from "../SelectAmount/SelectAmount";
 
 export default function DemoCarousel() {
   return (
@@ -10,32 +11,40 @@ export default function DemoCarousel() {
       showIndicators={false}
       infiniteLoop={true}
       stopOnHover={false}
+      autoPlay={false}
+      interval={3000000}
     >
       <div>
-        <img src="https://assets.stickpng.com/thumbs/5906078f0cbeef0acff9a645.png" />
+        <img
+          alt="burguer"
+          src="https://assets.stickpng.com/images/588248e0e81acb96424ffab1.png"
+        />
+        <SelectAmount />
         <p className="newlegend">Agregar al carrito</p>
       </div>
       <div>
-        <img src="https://assets.stickpng.com/images/588248e0e81acb96424ffab1.png" />
-        <p className="newlegend">Agregar al carrito</p>
-      </div>
-      <div>
-        <img src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4134.png" />
-        <p className="newlegend">Agregar al carrito</p>
-      </div>
-
-      <div>
-        <img src="https://assets.stickpng.com/thumbs/58824a63e81acb96424ffab5.png" />
-        <p className="newlegend">Agregar al carrito</p>
-      </div>
-
-      <div>
-        <img src="https://assets.stickpng.com/thumbs/58824aabe81acb96424ffab6.png" />
+        <img
+          alt="burguer"
+          src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4134.png"
+        />
+        <SelectAmount />
         <p className="newlegend">Agregar al carrito</p>
       </div>
 
       <div>
-        <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c1a8.png" />
+        <img
+          alt="burguer"
+          src="https://assets.stickpng.com/images/588248e0e81acb96424ffab1.png"
+        />
+        <SelectAmount />
+        <p className="newlegend">Agregar al carrito</p>
+      </div>
+      <div>
+        <img
+          alt="burguer"
+          src="https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4134.png"
+        />
+        <SelectAmount />
         <p className="newlegend">Agregar al carrito</p>
       </div>
     </Carousel>

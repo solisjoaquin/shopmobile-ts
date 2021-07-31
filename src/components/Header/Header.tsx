@@ -1,14 +1,14 @@
 import "./Header.css";
 
-const Header = () => {
+function Header() {
   return (
     <nav>
       <a href="/" className="nav__title">
         CompanyName
       </a>
-      <p className="nav__amount">$0.00</p>
+      <p className="nav__amount">$0</p>
     </nav>
   );
-};
+}
 
 export default Header;
